@@ -35,8 +35,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  max-inline-size: 1200px;
-  inline-size: 100%;
+  inline-size: 1200px;
   block-size: 100%;
 }
 
@@ -105,8 +104,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  max-inline-size: 711px;
-  inline-size: 100%;
+  inline-size: 711px;
   block-size: 386px;
   margin-block-end: 16px;
 }
@@ -234,8 +232,7 @@ ol {
   display: flex;
   align-items: end;
   column-gap: 30px;
-  max-inline-size: 1140px;
-  inline-size: 100%;
+  inline-size: 1140px;
   margin: auto;
 }
 
