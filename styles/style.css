@@ -35,7 +35,8 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  inline-size: 1200px;
+  max-inline-size: 1200px;
+  inline-size: 100%;
   block-size: 100%;
 }
 
@@ -67,7 +68,7 @@ ol {
   border: 1px solid #fff;
   padding: 6px 73.5px;
   color: #fff;
-  font-family: Fira Sans, Condensed, sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: normal;
@@ -104,7 +105,8 @@ ol {
 
 .result__video-container {
   position: relative;
-  inline-size: 711px;
+  max-inline-size: 711px;
+  inline-size: 100%;
   block-size: 386px;
   margin-block-end: 16px;
 }
@@ -133,7 +135,7 @@ ol {
 .search-form__fieldset-title {
   margin-block-end: 5px;
   color: #fff;
-  font-family: Fira Sans, Condensed, sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
@@ -232,7 +234,8 @@ ol {
   display: flex;
   align-items: end;
   column-gap: 30px;
-  inline-size: 1140px;
+  max-inline-size: 1140px;
+  inline-size: 100%;
   margin: auto;
 }
 
@@ -302,7 +305,8 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  inline-size: 200px;
+  inline-size: 100%;
+  max-inline-size: 200px;
 }
 
 .content__video-card-description {
@@ -313,7 +317,8 @@ ol {
 
 .content__video-card-thumbnail {
   flex-shrink: 0;
-  inline-size: 194px;
+  max-inline-size: 194px;
+  inline-size: 100%;
   block-size: 103px;
   object-fit: cover;
   object-position: center;
